@@ -21,16 +21,28 @@
 .border-radius-5 { border-radius: 5px !important; }
 
 /*List Style None*/
-.list-style-none { list-style: none }
+.list-style-none { list-style: none; }
 
-/*First Section*/
-.first-section a {
-    text-decoration: none !important;
-}
+/*No Underline*/
+.no-ul { text-decoration: none !important; }
 
-.first-section a:hover {
-    color: #8B8D48 !important;
-}
+/*Colors*/
+.purple { color: #653D57 !important; }
+.beige { color: #F8F4EB !important; }
+.white { color: white !important; }
+
+/*Background Colors*/
+.purple-bg { background-color: #653D57 !important; }
+.beige-bg { background-color: #F8F4EB !important; }
+.olive-bg { background-color: #8B8D48 !important; }
+
+/*Border Color*/
+.border-color-purple { border-color: #653D57 !important; }
+
+/*Hover Colors*/
+.hover-purple a:hover { color: #653D57 !important; }
+.hover-beige a:hover { color: #F8F4EB !important; }
+.hover-olive a:hover { color: #8B8D48 !important; }
 
 @media only screen and (max-width : 991px) {
     .margin-bottom-60-max-991 { margin-bottom: 60px !important; }
