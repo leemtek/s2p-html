@@ -17,6 +17,9 @@
 .margin-left-5 { margin-left: 5px !important; }
 .margin-right-left-0 { margin-right: 0 !important; margin-left: 0 !important }
 
+/*border*/
+.border-top-0 { border-top: 0 !important; }
+
 /*Border Radius*/
 .border-radius-5 { border-radius: 5px !important; }
 
@@ -43,6 +46,18 @@
 .hover-purple a:hover { color: #653D57 !important; }
 .hover-beige a:hover { color: #F8F4EB !important; }
 .hover-olive a:hover { color: #8B8D48 !important; }
+
+/*Logo*/
+.fixed-header-on .header .logo img {
+    max-height: 50px;
+}
+
+/*Responisve*/
+@media only screen and (min-width : 1200px) {
+    .padding-top-0-min-1200 { padding-top: 0 !important; }
+    .margin-top-bottom-5-min-1200 { margin-top: 5px !important; margin-bottom: 5px !important; }
+    .height-64-min-1200 { height: 64px !important; }
+}
 
 @media only screen and (max-width : 991px) {
     .margin-bottom-60-max-991 { margin-bottom: 60px !important; }
